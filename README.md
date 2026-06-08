@@ -148,7 +148,6 @@ Goal:
 │   └── oversmoothing_results.csv
 │
 └── report/
-    ├── report.tex
     └── report.pdf
 
 ---
