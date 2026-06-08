@@ -214,10 +214,3 @@ and execute the cells sequentially.
 
 ---
 
-## Author
-
-**Yash Lucas**  
-Department of Informatics  
-TU Wien, Vienna, Austria
-
-Course: Graph Representation Learning
