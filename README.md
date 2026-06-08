@@ -135,15 +135,7 @@ Goal:
 .
 ├── README.md
 ├── requirements.txt
-├── notebooks/
-│   └── gnn_experiments.ipynb
-│
-├── src/
-│   ├── models.py
-│   ├── initialization.py
-│   ├── masking.py
-│   ├── experiments.py
-│   └── utils.py
+├── Final_Project.ipynb
 │
 ├── figures/
 │   ├── initialization_results.png
@@ -158,7 +150,6 @@ Goal:
 └── report/
     ├── report.tex
     └── report.pdf
-```
 
 ---
 
