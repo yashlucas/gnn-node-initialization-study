@@ -465,7 +465,7 @@ fig.suptitle('GNN Node Initialization Study: Comprehensive Analysis Dashboard',
 plt.savefig(results_viz_dir / '06_comprehensive_dashboard.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-print(f'\n✓ Visualizations saved to: {results_viz_dir}')
+print(f'\n Visualizations saved to: {results_viz_dir}')
 print('  - 01_initialization_comparison.png')
 print('  - 02_masking_robustness.png')
 print('  - 03_oversmoothing_effect.png')
@@ -1783,7 +1783,7 @@ STATISTICAL TESTS:
     plt.savefig(viz_dir / '11_advanced_summary.png', dpi=300, bbox_inches='tight')
     plt.show()
     
-    print(f"\n✓ Advanced visualizations saved to: {viz_dir}")
+    print(f"\n Visualizations saved to: {viz_dir}")
     print("  - 07_cross_validation_analysis.png")
     print("  - 08_fold_performance.png")
     print("  - 09_hyperparameter_sensitivity.png")
@@ -2265,7 +2265,7 @@ fig.suptitle('GNN Node Initialization Study: Comprehensive Analysis Dashboard',
 plt.savefig(results_viz_dir / '06_comprehensive_dashboard.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-print(f'\n✓ Visualizations saved to: {results_viz_dir}')
+print(f'\n Visualizations saved to: {results_viz_dir}')
 print('  - 01_initialization_comparison.png')
 print('  - 02_masking_robustness.png')
 print('  - 03_oversmoothing_effect.png')
@@ -3377,7 +3377,7 @@ def run_full_intensive_study(
     # ========================================================
     # GENERATE ADVANCED VISUALIZATIONS
     # ========================================================
-    print("\nGenerating advanced visualizations...")
+    print("\nGenerating  visualizations...")
     
     viz_dir = results_dir_gnn / 'visualizations'
     viz_dir.mkdir(exist_ok=True, parents=True)
@@ -3579,16 +3579,16 @@ STATISTICAL TESTS:
             verticalalignment='top', fontfamily='monospace',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.7))
     
-    fig.suptitle('Advanced Results Summary & Analysis', fontweight='bold', fontsize=13)
-    plt.savefig(viz_dir / '11_advanced_summary.png', dpi=300, bbox_inches='tight')
-    plt.show()
+    #fig.suptitle('Advanced Results Summary & Analysis', fontweight='bold', fontsize=13)
+    #plt.savefig(viz_dir / '11_advanced_summary.png', dpi=300, bbox_inches='tight')
+    #plt.show()
     
-    print(f"\n✓ Advanced visualizations saved to: {viz_dir}")
+    print(f"\n Advanced visualizations saved to: {viz_dir}")
     print("  - 07_cross_validation_analysis.png")
     print("  - 08_fold_performance.png")
     print("  - 09_hyperparameter_sensitivity.png")
     print("  - 10_runtime_profile.png")
-    print("  - 11_advanced_summary.png")
+
 
     return {
         "cv_df": cv_df,
