@@ -590,17 +590,3 @@ results = run_experiment(dataset, CustomGNN, 'CustomGNN', 'test_setting', epochs
 
 ---
 
-## Code Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Total Lines** | 1200+ |
-| **Initialization Methods** | 11 (5 basic + 6 advanced) |
-| **GNN Architectures** | 3 (GCN, GIN, GraphSAGE) |
-| **Experiments** | 3 (Initialization, Masking, Depth) |
-| **Training Utilities** | 10+ functions |
-| **Evaluation Metrics** | 6+ (accuracy, F1, precision, recall, etc.) |
-| **Visualization Functions** | 6 baseline + 5 advanced = 11 total |
-| **Utility Functions** | 20+ |
-
----
