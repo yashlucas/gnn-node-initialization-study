@@ -194,7 +194,6 @@ Three state-of-the-art Graph Neural Network architectures are comprehensively ev
         ├── 08_fold_performance.png
         ├── 09_hyperparameter_sensitivity.png
         ├── 10_runtime_profile.png
-        └── 11_advanced_summary.png
 ```
 
 ---
@@ -461,7 +460,7 @@ runtime_df = profile_initialization_runtime(
 8. **08_fold_performance.png**: Fold-wise accuracy trends by initialization
 9. **09_hyperparameter_sensitivity.png**: 2×2 grid of hyperparameter sensitivity curves
 10. **10_runtime_profile.png**: Computational cost comparison (seconds)
-11. **11_advanced_summary.png**: Top configurations, model comparison, statistical summary
+
 
 ---
 
